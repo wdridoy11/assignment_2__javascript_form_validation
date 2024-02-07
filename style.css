@@ -30,10 +30,11 @@ body{
 }
 
 .form input{
-    width: 100%;
+    width: 95.5%;
     padding:  15px 10px;
     margin-bottom: 10px;
-    border: none;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
 }
 
 .form input:focus{
@@ -41,6 +42,7 @@ body{
 }
 
 #login{
+    width: 100%;
     background: #67e8f9;
     color: #fff;
     font-size: 18px;
