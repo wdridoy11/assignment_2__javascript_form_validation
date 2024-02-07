@@ -8,7 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(./bg.jpg);
+    background: url(./images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -48,4 +48,8 @@ body{
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    transition: 0.5s;
+}
+#login:hover{
+    background: #58bcca;
 }
